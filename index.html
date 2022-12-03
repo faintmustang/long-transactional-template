@@ -39,7 +39,9 @@
         border-width: 0;
         background-color: #ECECEC;
         }
-    
+    table.footer-links {
+        text-decoration: solid black!important;
+    }
     </style>
 </head>
 <body style="Margin: 0;padding:0;min-width:100%;background-color: #ffff;">
@@ -262,16 +264,30 @@
                             <a href="https://example.com" target="_blank"><img src="images/logo-twitter.png" alt="Twitter" width="20" style="padding:0 5px;"></a>
                             <a href="https://example.com" target="_blank"><img src="images/logo-linkedin.png" alt="Linkedin" width="20" style="padding:0 5px;"></a>
 
-                            <p>548 Market Street, Suite 96966</p>
-                            <p>San Francisco, CA 94104</p>
-                            <a href="">help@peerspace.com</a>
+                            <p style="font-size: 12px;color: #000;">548 Market Street, Suite 96966</p>
+                            <p style="font-size: 12px;color: #000;">San Francisco, CA 94104</p>
+                            <a href="mailto:email@example.com" style="font-size: 12px;text-decoration: solid!important;color: #000;">help@peerspace.com</a>
 
-                            <p>&copy; 2022 Peerspace, all rights reserved</p>
+                            <p style="font-size: 12px;padding: 10px 0;color: #000;">&copy; 2022 Peerspace, all rights reserved</p>
+
+                            <tr>
+                                <table width="700" class="footer-links" style="background-color: #F7F8F9;max-width: 700px;padding-bottom: 15px;">
+                                    <td style="display: inline-block;padding-left: 255px;"><a href="https://example.com" target="_blank" style="font-size: 12px;color:#000;">Unsubscribe </a></td>
+                                    <td style="display: inline-block;"><a href="https://example.com" target="_blank" style="font-size: 12px;color:#000;">| Terms | </a></td>
+                                    <td style="display: inline-block;"><a href="https://example.com" target="_blank" style="font-size: 12px;color:#000;"> Privacy Policy</a></td>
+                                </table>
+                            </tr>
                         </td>
 
                     
                     </tr>
 
+                </table>
+            </tr>
+
+            <tr>
+                <table role="presentation">
+                    <td width="700" height="35" style="max-width: 700px;background-color: #ffff;"></td>
                 </table>
             </tr>
             
